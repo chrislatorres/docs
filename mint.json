@@ -1,0 +1,61 @@
+{
+  "$schema": "https://mintlify.com/schema.json",
+  "name": "Eliza",
+  "logo": {
+    "dark": "/logo/dark.png",
+    "light": "/logo/light.png"
+  },
+  "favicon": "/favicon.svg",
+  "colors": {
+    "primary": "#FF8C00",
+    "light": "#FFA533",
+    "dark": "#E67E00",
+    "anchors": {
+      "from": "#FF8C00",
+      "to": "#FFA533"
+    }
+  },
+  "topbarLinks": [],
+  "topbarCtaButton": {
+    "name": "Join Discord",
+    "url": "https://eliza.gg/discord"
+  },
+  "tabs": [],
+  "anchors": [
+    {
+      "name": "X",
+      "icon": "x",
+      "url": "https://x.com/ai16zdao"
+    },
+    {
+      "name": "Discord",
+      "icon": "discord",
+      "url": "https://eliza.gg/discord"
+    },
+    {
+      "name": "ElizaOS",
+      "icon": "computer",
+      "url": "https://elizaos.ai"
+    },
+    {
+      "name": "Blog",
+      "icon": "newspaper",
+      "url": "https://elizaos.ai/blog"
+    }
+  ],
+  "navigation": [
+    {
+      "group": "Get Started",
+      "pages": ["introduction", "quickstart", "faq"]
+    },
+    {
+      "group": "Core Concepts",
+      "pages": ["core/characterfile"]
+    }
+  ],
+  "footerSocials": {
+    "x": "https://x.com/ai16zdao",
+    "github": "https://github.com/elizaos",
+    "discord": "https://eliza.gg/discord"
+  }
+}
